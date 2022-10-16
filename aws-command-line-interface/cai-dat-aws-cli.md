@@ -18,6 +18,7 @@ Trong trường hợp wsl2 chưa cài pip3, thực hiện cài pip3 với comman
 {% endhint %}
 
 ```bash
+# Cài đặt python3-pip
 $ sudo apt install python3-pip
 ```
 
@@ -25,15 +26,15 @@ $ sudo apt install python3-pip
 
 Trên giao diện terminal của wsl2, nhập command:
 
-```bash
-$ pip3 install awscli --upgrade --user
-```
+<pre class="language-bash"><code class="lang-bash"><strong># Cài đặt awscli sử dụng pip
+</strong><strong>$ pip3 install awscli --upgrade --user</strong></code></pre>
 
 
 
 Kiểm tra cài đặt thành công với command:
 
 ```bash
+# Kiểm tra awscli đã được cài đặt
 $ aws --version
 aws-cli/1.25.92 Python/3.10.6 Linux/5.15.68.1-microsoft-standard-WSL2 botocore/1.27.91
 ```
@@ -41,8 +42,14 @@ aws-cli/1.25.92 Python/3.10.6 Linux/5.15.68.1-microsoft-standard-WSL2 botocore/1
 Khi sử dụng option --user, awscli sẽ được cài đặt tại địa chỉ \~/.local/bin nên nếu kết quả kiểm tra trả về không đúng, cần nhập thêm command sau và kiểm tra lại kết quả
 
 <pre class="language-bash"><code class="lang-bash"><strong>$ export PATH=~/.local/bin:$PATH
+</strong><strong>
+</strong><strong># Kiểm tra awscli đã được cài đặt
 </strong>$ aws --version
-aws-cli/1.25.92 Python/3.10.6 Linux/5.15.68.1-microsoft-standard-WSL2 botocore/1.27.91</code></pre>
+aws-cli/1.25.92 Python/3.10.6 Linux/5.15.68.1-microsoft-standard-WSL2 botocore/1.27.91
+
+# Kiểm tra vị trí mà awscli được cài đặt
+$ which aws
+/home/username/.local/bin/aws</code></pre>
 {% endtab %}
 
 {% tab title="Second Tab" %}
