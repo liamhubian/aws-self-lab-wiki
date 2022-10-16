@@ -53,15 +53,19 @@ $ which aws
 {% endtab %}
 
 {% tab title="Windows" %}
-tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+tham khảo tại [tài liệu hướng dẫn cài dặt CLI của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 {% endtab %}
 
 {% tab title="Linux" %}
-tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+tham khảo tại [tài liệu hướng dẫn cài đặt CLI của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 {% endtab %}
 
 {% tab title="MacOS" %}
-tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+tham khảo tại [tài liệu hướng dẫn cài đặt CLI của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+{% endtab %}
+
+{% tab title="Docker" %}
+Tham khảo [tài liệu hướng dẫn sử dụng AWS CLI thông qua docker](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-docker.html)
 {% endtab %}
 {% endtabs %}
 
