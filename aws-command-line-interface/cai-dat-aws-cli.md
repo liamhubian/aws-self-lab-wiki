@@ -12,7 +12,7 @@ Với các hệ điều hành Windows, Linux, MacOS, tham khảo tại [tài li�
 {% endhint %}
 
 {% tabs %}
-{% tab title="WSL2" %}
+{% tab title="Windows Sub-system for Linux (wsl)" %}
 {% hint style="info" %}
 Trong trường hợp wsl2 chưa cài pip3, thực hiện cài pip3 với command:
 {% endhint %}
@@ -52,8 +52,16 @@ $ which aws
 /home/username/.local/bin/aws</code></pre>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Windows" %}
+tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+{% endtab %}
 
+{% tab title="Linux" %}
+tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+{% endtab %}
+
+{% tab title="MacOS" %}
+tham khảo tại [tài liệu hướng dẫn của AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 {% endtab %}
 {% endtabs %}
 
