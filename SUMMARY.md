@@ -22,7 +22,12 @@
   * [Storage Gateway](cloud-architect/storage-layer/storage-gateway.md)
   * [Snow family](cloud-architect/storage-layer/snow-family.md)
 * [Compute Layer](cloud-architect/compute-layer.md)
-* [Networking Layer](cloud-architect/networking-layer.md)
+* [Networking Layer](cloud-architect/networking-layer/README.md)
+  * [Fundamentals of IPv4 Addressing & Routing](cloud-architect/networking-layer/fundamentals-of-ipv4-addressing-and-routing/README.md)
+    * [IPv4 Addressing and Subnetting](cloud-architect/networking-layer/fundamentals-of-ipv4-addressing-and-routing/ipv4-addressing-and-subnetting.md)
+    * [Network Address Translation](cloud-architect/networking-layer/fundamentals-of-ipv4-addressing-and-routing/network-address-translation.md)
+  * [AWS VPC](cloud-architect/networking-layer/aws-vpc.md)
+  * [Route53](cloud-architect/networking-layer/route53.md)
 * [Database Layer](cloud-architect/database-layer.md)
 
 ## Cloud Automation
